@@ -39,10 +39,10 @@ main {
     margin: 15px;
 }
 #updated {
-    color: darkgoldenrod;
+    color: rgb(139, 102, 8);
 }
 .updates {
-    color: darkgoldenrod;
+    color: rgb(139, 102, 8);
 }
 .info {
     margin-top: -8px;
