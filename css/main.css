@@ -38,12 +38,6 @@ body {
 main {
     margin: 15px;
 }
-#updated {
-    color: rgb(139, 102, 8);
-}
-.updates {
-    color: rgb(139, 102, 8);
-}
 .info {
     margin-top: -8px;
     padding-bottom: 25px;
