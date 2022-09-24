@@ -1,0 +1,24 @@
+@media screen and (min-width: 1000px) {
+
+main {
+    grid-template-columns: repeat(3,1fr);
+}
+.white_space {
+    border-radius: 15px;  
+    width: 75%;  
+    grid-column: 1/2;
+}
+.visual_hierarchy {
+    border-radius: 20px;  
+    width: 75%; 
+    grid-column: 2/3;
+}
+.colors {
+    border-radius: 15px;  
+    width: 75%; 
+    grid-column: 3/4;
+}
+#maincolors{
+    grid-column: 3/4;
+}
+}
