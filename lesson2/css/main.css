@@ -4,6 +4,9 @@ body {
     /* padding-right: 50px; */
     margin: 15px;
 }
+#content{
+    margin: 5%;
+}
 header {
     background-color: rgb(140, 105, 181);
     color:rgb(255, 252, 241);
@@ -93,7 +96,7 @@ h2 {
 }
 .info {
     font-family: cabin;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: left;
     padding: 25px;
 }
