@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&family=Poppins&display=swap');
+#content {
+    margin: 15px;
+}
+header {
+    font-family: lexend;
+    /* display: flex; */
+    /* grid-template-columns: .5fr 1.5fr; */
+    background-color: #CFECEC;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color:rgb(74, 85, 96);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.25em;
+}
+nav {
+  font-family: poppins;
+  font-size: 1.25em;
+  color: #4a5560;
+}
+.galt-logo {
+    display: block;
+    max-width: 100px;
+    
+    margin: 0 auto;
+    /* grid-column: 1/2;
+    grid-row: 1/3; */
+    align-self: center;
+    justify-self: center;
+   
+    /* margin-bottom: 25px; */
+}
+p {
+    font-family: poppins;
+    color: #4a5560;
+    text-align: left;
+    margin: 10px;
+    font-size: 1.25em;
+}
+h1 {
+    color: #4a5560;
+    font-family: lexend;
+}
+.colors {
+    background-color: aliceblue;
+    padding: 5px;
+    color: #4a5560;
+    width: 100%;
+    min-width: 50px;
+    text-align: center;
+  }
+.primary {
+    background-color: #EECCBA;
+  }
+  .secondary {
+    background-color:#CFECEC;
+  }
+  .accent1 {
+    background-color: #F2A97E;
+  }
+  .accent2{
+    background-color: #7EF2F2;
+  }
+  .text-color {
+    background-color: #4a5560;
+    color: aliceblue;
+  }
+  .name {
+    /* grid-column: 2/3;
+    grid-row: 1/2; */
+    text-align: center;
+    align-self: center;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    color:#4a5560;
+    font-size: .75em;
+  }
+  h2 {
+    font-family: lexend;
+    color: rgb(74, 85, 96);
+    text-align: center;
+  }
+  main {
+    background-color: #EECCBA;
+    padding: 10px;
+    text-align: center;
+  }
+.palette {
+    font-family: poppins;
+}
+.color-of-text {
+    color: #4a5560;
+    font-family: poppins;
+}
+.audience {
+    color: #4a5560;
+    font-family: lexend;
+}
+.audience-info {
+    text-align: left;
+    font-size: 1.25em;
+}
+.font {
+    color: #4a5560;
+    text-align: center;
+    font-family: lexend;
+    font-size: 2.5em;
+}
+.original-paragraph, .start-example {
+    text-align: center;
+    font-size: 1.25em;
+}
+.example {
+    font-size: 1.25em;
+    margin: 5px;
+}
+.domain {
+    text-align: center;
+}
+.working-woman {
+  max-width: 125px;
+  margin: 25px;
+}
+.working-man {
+  max-width: 125px;
+  margin: 25px;
+}
+.community {
+  max-width: 300px;
+  margin: 25px;
+}
