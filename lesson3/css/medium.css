@@ -1,0 +1,10 @@
+@media screen and (min-width: 700px) {
+    #content {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    nav {
+        display: flex; 
+        justify-content: space-around;
+    }
+}
