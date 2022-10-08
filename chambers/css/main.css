@@ -1,3 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&family=Poppins&display=swap');
+#content {
+    /* margin: 15px; */
+}
+header {
+    font-family: lexend;
+    background-color: #CFECEC;
+    color:rgb(74, 85, 96);
+    /* font-size: 1.25em; */
+    display: grid;
+    grid-template-columns: 1fr 2fr .75fr .75fr .75fr;
+    padding: 15px;
+    /* text-align: center; */
+}
 nav {
-    display: none;
+  font-family: poppins;
+  font-size: 1.25em;
+  color: #4a5560;
+  margin: 0 auto;
+  max-width: 760px;
+  /* justify-content: center; */
+  align-self: center;
+  /* text-align: center; */
+
+  /* display: none; */
+}
+.navigation {
+  /* display: none; */
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+}
+.navigation li:first-child {
+  display: block;
+  font-size: 2em;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+
+}
+.navigation li {
+  display: none;
+}
+.navigation a {
+  display: block;
+  color:#4a5560;
+  font-size: .75em;
+  text-align: center;
+  text-decoration: none;
+  /* justify-content: center;
+  align-self: center; */
+  /* display: none; */
+}
+.responsive li {
+  display: block;
+}
+.galt-logo {
+    display: block;
+    max-width: 85%;
+    /* margin: 0 auto; */
+    align-self: center;
+    justify-self: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-radius: 15px;
+}
+.social_media1 {
+    max-width: 25px;
+    align-self: center;
+    border-radius: 12px;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    margin-top: 0px;
+}
+.social_media2 {
+    max-width: 25px;
+    display: flex;
+    align-self: center;
+    justify-self: right;
+    border-radius: 12px;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    margin-top: 0px;
+}
+/* h2 {
+    font-family: lexend;
+    color: rgb(74, 85, 96);
+    text-align: center;
+  } */
+
+.name {
+    /* text-align: center; */
+    align-self: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+.name1 {
+    /* text-align: center; */
+    align-self:center;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: .85em;
+}
+  /* button {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    background-color: #CFECEC;
+    margin: 0px;
+    border: none;
+    font-size: 3em;
+  } */
+.date {
+  grid-column: 1/6;
+  grid-row: 2/3;
+  padding: 15px;
+  text-align: center;
+  background-color: #7EF2F2;
+  margin-top: 10px;
+}
+/* main {
+  /* background-color: #EECCBA; */
+  /* padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center; */
+
+.hero {
+  border-style: solid;
+  border-color: #4a5560;
+  padding-bottom: 50px;
+  background-color: #EECCBA;
+  margin: 10px;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+.event {
+  border-style: solid;
+  border-color: #4a5560;
+  padding-bottom: 50px;
+  background-color: #EECCBA;
+  margin: 10px;
+  margin-top: 0;
+  padding-left: 10px;
+}
+.weather {
+  border-style: solid;
+  border-color: #4a5560;
+  padding-bottom: 50px;
+  background-color: #EECCBA;
+  margin: 10px;
+  margin-top: 0;
+  padding-left: 10px;
+}
+.spotlight {
+  border-style: solid;
+  border-color: #4a5560;
+  background-color: #EECCBA;
+  margin: 10px;
+  margin-top: 0;
+}
+.sl1 {
+  border-style: groove;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 10px;
+}
+.sl2 {
+  border-style: groove;
+  padding-bottom: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0;
+  padding-left: 10px;
+}
+.sl3 {
+  display: none;
+  border-style: groove;
+  padding-bottom: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0;
+  padding-left: 10px;
+}
+.join {
+  display: none;
+  border-style: solid;
+  border-color: #4a5560;
+  padding-bottom: 50px;
+  background-color: #EECCBA;
+  margin: 10px;
+  padding-left: 10px;
+  margin-top: 0;
+}
+.news {
+  border-style: solid;
+  border-color: #4a5560;
+  padding-bottom: 50px;
+  background-color: #EECCBA;
+  margin: 10px;
+  padding-left: 10px;
+  margin-top: 0;
+}
+footer {
+  text-align: center;
+  align-self: center;
+  background-color: #CFECEC;
+  font-family: poppins;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+div>h2 {
+  font-family: lexend;
+}
+div>h3 {
+  font-family: lexend;
+  margin: 0 auto;
+}
+.galt-logo2 {
+  /* display: block; */
+  max-width: 150px;
+  /* margin: 0 auto; */
+  align-self: center;
+  justify-self: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border-radius: 15px;
+}
+.class {
+  margin: 0 auto;
+}
+.time {
+  margin: 0 auto;
+}
+.updates {
+  margin: 0 auto;
 }
