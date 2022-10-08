@@ -93,6 +93,7 @@
         .hero {
             grid-column: 2/3;
             grid-row: 1/3;
+            margin-top: 25px;
         }
         .event {
             grid-row: 1/2;

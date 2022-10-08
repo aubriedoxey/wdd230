@@ -18,14 +18,9 @@ nav {
   color: #4a5560;
   margin: 0 auto;
   max-width: 760px;
-  /* justify-content: center; */
   align-self: center;
-  /* text-align: center; */
-
-  /* display: none; */
 }
 .navigation {
-  /* display: none; */
   list-style: none;
   text-align: center;
   justify-content: center;
@@ -37,7 +32,6 @@ nav {
   justify-content: center;
   align-self: center;
   text-align: center;
-
 }
 .navigation li {
   display: none;
@@ -48,9 +42,6 @@ nav {
   font-size: .75em;
   text-align: center;
   text-decoration: none;
-  /* justify-content: center;
-  align-self: center; */
-  /* display: none; */
 }
 .responsive li {
   display: block;
@@ -122,13 +113,9 @@ nav {
   background-color: #7EF2F2;
   margin-top: 10px;
 }
-/* main {
-  /* background-color: #EECCBA; */
-  /* padding: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-align: center; */
-
+main {
+  font-family: poppins;
+}
 .hero {
   border-style: solid;
   border-color: #4a5560;
@@ -170,6 +157,7 @@ nav {
   margin-left: 5px;
   margin-right: 5px;
   padding-left: 10px;
+  padding-top: 10px;
 }
 .sl2 {
   border-style: groove;
@@ -178,6 +166,7 @@ nav {
   margin-right: 5px;
   margin-top: 0;
   padding-left: 10px;
+  padding-top: 10px;
 }
 .sl3 {
   display: none;
@@ -187,6 +176,7 @@ nav {
   margin-right: 5px;
   margin-top: 0;
   padding-left: 10px;
+  padding-top: 10px;
 }
 .join {
   display: none;
@@ -224,7 +214,7 @@ div>h3 {
 }
 .galt-logo2 {
   /* display: block; */
-  max-width: 150px;
+  max-width: 125px;
   /* margin: 0 auto; */
   align-self: center;
   justify-self: center;
