@@ -8,7 +8,7 @@ console.log(full_date);
 
 //click event
 function toggleMenu() {
-    document.getElementsByClassName("navigation")[0].classlist.toggle("responsive");
+    document.getElementsByClassName("navigation").classlist.toggle("responsive");
 }
 
 let date = new Date();
