@@ -8,11 +8,13 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr .75fr .75fr .75fr;
     padding: 15px;
+    position: sticky;
+    top: 0px;
     /* text-align: center; */
 }
 nav {
   font-family: poppins;
-  font-size: 1.25em;
+  font-size: 2em;
   color: #4a5560;
   margin: 0 auto;
   max-width: 760px;
@@ -20,13 +22,13 @@ nav {
 }
 .navigation {
   list-style: none;
-  text-align: center;
+  text-align: left;
   justify-content: center;
   padding: 0;
 }
 .navigation li:first-child {
   display: block;
-  font-size: 2em;
+  font-size: 1em;
   justify-content: center;
   align-self: center;
   text-align: center;
@@ -38,7 +40,7 @@ nav {
   display: block;
   color:#4a5560;
   font-size: .75em;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 .responsive li {
