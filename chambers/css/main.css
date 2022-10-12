@@ -10,6 +10,7 @@ header {
     padding: 15px;
     position: sticky;
     top: 0px;
+    z-index: 1;
     /* text-align: center; */
 }
 nav {
@@ -119,6 +120,15 @@ button{
 main {
   font-family: poppins;
 }
+#btn-join {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  background-color: #7EF2F2;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 1.25em;
+}
 .hero {
   border-style: solid;
   border-color: #4a5560;
@@ -127,6 +137,7 @@ main {
   margin: 10px;
   margin-top: 15px;
   padding-left: 10px;
+  position: relative;
 }
 .event {
   border-style: solid;
