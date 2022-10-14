@@ -17,3 +17,7 @@ document.querySelector(".year").textContent = year;
 
 let oLastModified = document.lastModified;
 document.querySelector('.updated').textContent = oLastModified;
+
+if (date.getDate() ==1 || date.getDate()==3) {
+    document.querySelector('#msg-box').style.display = 'block';
+}

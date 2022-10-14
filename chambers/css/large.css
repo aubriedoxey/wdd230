@@ -41,7 +41,7 @@
         margin: 0;
     }
     .date {
-        grid-row: 3/4;
+        grid-row: 2/3;
     }
     .navigation {
         display: flex;
@@ -141,5 +141,8 @@
         .news {
             grid-row: 3/4;
             grid-column: 2/3;
+        }
+        .map {
+            padding-right: 250px;
         }
 } 

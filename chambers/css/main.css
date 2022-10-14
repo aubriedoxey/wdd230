@@ -115,8 +115,16 @@ button{
   grid-row: 2/3;
   padding: 15px;
   text-align: center;
-  background-color: #7EF2F2;
-  margin-top: 10px;
+  order: 1;
+}
+.banner {
+  grid-column: 1/6;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.25em;
+  background-color:#F2A97E;
+  order: 2;
 }
 main {
   font-family: poppins;
@@ -245,4 +253,15 @@ div>h3 {
 }
 .updates {
   margin: 0 auto;
+}
+.pin {
+  max-width: 35px;
+  /* display: block;
+  align-self: center;
+  justify-self: center; */
+}
+.map {
+  text-align: center;
+  /* align-self: center; */
+  /* justify-self: center; */
 }
