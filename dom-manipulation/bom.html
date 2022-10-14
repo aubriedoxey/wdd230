@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping list example</title>
-    <style>
+    <!-- <style>
       li {
         margin-bottom: 10px;
       }
@@ -14,24 +14,25 @@
         margin-left: 20px;
         color: #666;
       }
-    </style>
+    </style> -->
+    <link rel="stylesheet" href="css/main.css" >
+    <script defer src="js/script.js"></script>
   </head>
   <body>
-
-    <h1>My shopping list</h1>
-
+    <header>
+      <section id="content">
+        <img src="images/book.jfif" alt="blue book" id="book">
+        <h1>Book of Mormon - Top 25</h1>
+      </section>
+    </header>
+    <main>
     <div>
-      <label for="item">Enter a new item:</label>
-      <input type="text" name="item" id="item">
-      <button>Add item</button>
+      <label for="item">Enter Book and Chapter</label>
+      <input type="text" name="item" id="item" placeholder="Alma 5">
+      <button id="add">Add Chapter</button>
     </div>
-
-    <ul>
-
+    <ul class="listcontainer">
     </ul>
-
-    <script>
-
-    </script>
+  </main>
   </body>
 </html>
