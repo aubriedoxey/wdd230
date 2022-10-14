@@ -29,6 +29,7 @@ nav {
 }
 button{
   background-color: #CFECEC;
+  color: #4a5560;
 }
 .navigation li:first-child {
   display: block;
