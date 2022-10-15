@@ -145,4 +145,23 @@
         .map {
             padding-right: 250px;
         }
+        .event h2 {
+            font-size: 1.9em;}
+        #town {
+            max-width: 100%;
+            display: block;
+            justify-content: center;
+            align-items: center;
+        }
+        #clouds {
+            max-width: 30%;
+            float: left;
+            /* padding-top: 50px; */
+            margin-left: 50px;
+        }
+        .weather h3 {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-right: 15px;
+        }
 } 

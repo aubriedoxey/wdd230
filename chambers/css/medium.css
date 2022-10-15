@@ -1,4 +1,4 @@
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 725px) {
     .galt-logo {
         max-width: 75%;
     }
@@ -23,11 +23,13 @@
     .event {
         grid-row: 5/6;
         grid-column: 1/3;
+        margin-top: 0px;
     }
     .weather {
         grid-row: 5/6;
         grid-column: 3/4;
         margin-left: 0px;
+        margin-top: 0px;
     }
     .spotlight {
         grid-row: 3/4;
@@ -48,6 +50,18 @@
         display: block;
         grid-row: 4/5;
         grid-column: 1/4;
+        text-align: center;
+    }
+    #btn-joinus {
+        padding-left: 45%;
+        padding-right: 44%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 15px;
+        background-color: #7EF2F2;
+        box-shadow: -3px -3px;
+        margin-top: 15px;
+        justify-content: center;
     }
     .news {
         grid-row: 2/3;
@@ -90,4 +104,20 @@
     .map {
         padding-right: 100px;
     }
+    #clouds {
+        max-width: 30%;
+        float: left;
+        margin-left: 30px;
+      }
+      .weather h1 {
+        font-size: 100%;
+      }
+      .weather h3 {
+        font-size: 100%;
+        padding: 0;
+      }
+      #trucks {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
 }

@@ -117,7 +117,7 @@ button{
   text-align: center;
   order: 1;
 }
-.banner {
+#banner {
   grid-column: 1/6;
   text-align: center;
   padding-top: 15px;
@@ -125,14 +125,18 @@ button{
   font-size: 1.25em;
   background-color:#F2A97E;
   order: 2;
+  display: none;
 }
 main {
   font-family: poppins;
 }
+#town {
+  max-width: 100%;
+}
 #btn-join {
   position: absolute;
-  bottom: 20px;
-  right: 50px;
+  bottom: 15%;
+  right: 10%;
   background-color: #7EF2F2;
   padding: 15px;
   border-radius: 15px;
@@ -141,30 +145,88 @@ main {
 .hero {
   border-style: solid;
   border-color: #4a5560;
-  padding-bottom: 50px;
   background-color: #EECCBA;
   margin: 10px;
   margin-top: 15px;
-  padding-left: 10px;
+  /* padding-left: 10px; */ 
   position: relative;
+  color: #7EF2F2;
+}
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  color: #7EF2F2;
+  font-size: 2.5em;
+  padding-left: 15px;
 }
 .event {
   border-style: solid;
   border-color: #4a5560;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   background-color: #EECCBA;
   margin: 10px;
-  margin-top: 0;
-  padding-left: 10px;
+  /* margin-top: 0; */
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  color: #4a5560;
+  font-size: 1.5em;
+}
+.event h2 {
+  font-family: lexend;
+  font-size: 2em;
+  font-weight: bolder;
+  text-shadow: -1px 1px;
+  -webkit-text-stroke: 1px #4a5560;
+  -webkit-text-fill-color: #7EF2F2;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.more-info {
+  font-weight: bolder;
+  -webkit-text-stroke: .05px #4a5560;
+  -webkit-text-fill-color: #7EF2F2;
 }
 .weather {
   border-style: solid;
   border-color: #4a5560;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   background-color: #EECCBA;
   margin: 10px;
   margin-top: 0;
-  padding-left: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  font-size: 1.5em;
+  color: #4a5560;
+}
+.weather-title {
+  font-family: lexend;
+  font-size: 2em;
+  font-weight: bolder;
+  text-shadow: -1px 1px;
+  -webkit-text-stroke: 1px #4a5560;
+  -webkit-text-fill-color: #7EF2F2;
+  margin-bottom: 0px;
+}
+#clouds {
+  max-width: 30%;
+  float: left;
+  margin-left: 50px;
+}
+.weather h1 {
+  font-family: poppins;
+  font-size: 150%;
+  padding-bottom: 15px;
+}
+.weather h3 {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  align-content: bottom;
+  /* padding-right: 70px; */
+  font-family: poppins;
 }
 .spotlight {
   border-style: solid;
@@ -175,21 +237,72 @@ main {
 }
 .sl1 {
   border-style: groove;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   margin-bottom: 0;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-left: 10px;
-  padding-top: 10px;
+  margin: 15px;
+  /* padding-left: 10px; */
+  text-align: center;
+  font-size: 1.5em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.sl1 h2 {
+  font-family: lexend;
+  font-size: 2em;
+  font-weight: bolder;
+  text-shadow: -1px 1px;
+  -webkit-text-stroke: 1px #4a5560;
+  -webkit-text-fill-color: #7EF2F2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#truck {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 56px;
+  margin-bottom: 55px;
+  /* float: right; */
+}
+#below-line {
+  font-size: 15px;
 }
 .sl2 {
   border-style: groove;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  margin: 15px;
+  /* padding-left: 10px; */
+  text-align: center;
+  font-size: 1.5em;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* border-style: groove;
   padding-bottom: 50px;
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 0;
   padding-left: 10px;
   padding-top: 10px;
+  text-align: center; */
+}
+.sl2 h2 {
+  font-family: lexend;
+  font-size: 2em;
+  font-weight: bolder;
+  text-shadow: -1px 1px;
+  -webkit-text-stroke: 1px #4a5560;
+  -webkit-text-fill-color: #7EF2F2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#pencil{
+  max-width: 50%;
+  margin: 0;
+}
+#below-line2 {
+  font-size: 15px;
 }
 .sl3 {
   display: none;
@@ -205,7 +318,7 @@ main {
   display: none;
   border-style: solid;
   border-color: #4a5560;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   background-color: #EECCBA;
   margin: 10px;
   padding-left: 10px;
@@ -214,11 +327,23 @@ main {
 .news {
   border-style: solid;
   border-color: #4a5560;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   background-color: #EECCBA;
   margin: 10px;
-  padding-left: 10px;
+  padding-left: 15px;
   margin-top: 0;
+  text-align: center;
+  font-size: 1.5em;
+  color: #4a5560;
+  padding-right: 15px;
+}
+.news-title {
+  font-family: lexend;
+  font-size: 2em;
+  font-weight: bolder;
+  text-shadow: -1px 1px;
+  -webkit-text-stroke: 1px #4a5560;
+  -webkit-text-fill-color: #7EF2F2;
 }
 footer {
   text-align: center;
