@@ -21,6 +21,10 @@ nav {
   max-width: 760px;
   align-self: center;
 }
+header a:hover {
+  color: #7EF2F2;
+  background-color: #4a5560;
+}
 .navigation {
   list-style: none;
   text-align: left;
@@ -47,6 +51,7 @@ button{
   font-size: .75em;
   text-align: left;
   text-decoration: none;
+  padding: 5px;
 }
 .responsive li {
   display: block;
@@ -224,7 +229,7 @@ main {
   padding-top: 0px;
   padding-bottom: 0px;
   margin-top: 0px;
-  align-content: bottom;
+  /* align-content: bottom; */
   /* padding-right: 70px; */
   font-family: poppins;
 }

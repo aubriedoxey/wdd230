@@ -54,9 +54,15 @@
     .navigation li {
         display: block;
         flex: 1 1 100%;
+
     }
     .navigation li a {
-        color: rgb(74, 85, 96);
+        color: #4a5560;
+        text-align: center;
+    }
+    header a:hover {
+        color: #7EF2F2;;
+        background-color: #4a5560;
     }
     .footer-content {
         display: grid;
@@ -190,7 +196,7 @@
             padding-right: 15px;
         }
         #btn-joinus {
-            font-size: 2.5em;
+            font-size: 2em;
             margin: 15px;
             margin-top: 56px;
         }
