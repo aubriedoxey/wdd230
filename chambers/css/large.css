@@ -199,6 +199,8 @@
             font-size: 2em;
             margin: 15px;
             margin-top: 56px;
+            padding-left: 25%;
+            padding-right: 25%;
         }
         #truck {
             margin-top: 0;
