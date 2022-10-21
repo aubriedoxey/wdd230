@@ -38,7 +38,11 @@
         </header>
         <main>
             <section class="hero">
-                <img src="images/town.jpg" id="town" alt="areal view of town">
+                <picture>
+                    <source srcset="images/medium-town.jpg" media="(min-width:725px) and (max-width: 1075px)">
+                    <source srcset="images/large-town.jpeg" media="(min-width:1075px)">
+                    <img src="images/small-town.jpg" id="town" alt="areal view of town">
+                </picture>
                 <h1>Welcome to Galt</h1>
                 <button id="btn-join">Join the Chamber</button>
             </section>
@@ -51,11 +55,11 @@
             <section class="weather">
                 <h2 class="weather-title">Weather</h2>
                 <img src="images/partly-cloudy.png" id="clouds" alt="partly cloudy icon">
-                <h1>33&#8451;</h1>
+                <h1><span id="t">45</span>&#8457;</h1>
                 <h3>Partly Cloudy</h3>
                 <hr>
-                <p>Wind Speed:        2.5 km/h</p>
-                <p>Wind Chill:        N/A</p>
+                <p class="ws">Wind Speed: <span id="ws">6</span> mph</p>
+                <p class="wc">Wind Chill: <span id="wc">N/A</span></p>
             </section>
             <section class="news">   
                 <h2 class="news-title">News Release</h2>

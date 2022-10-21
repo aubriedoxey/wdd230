@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1075px){
     header {
         display: grid;
         grid-template-columns: .25fr .75fr 1fr .25fr .25fr;
@@ -8,7 +8,7 @@
         font-size: 3.5em;
     }
     .name1 {
-        font-size: 2em;
+        font-size: 1.6em;
     }
     nav {
         padding-top: 50px;
@@ -104,13 +104,15 @@
             margin-top: 25px;
         }
         .hero h1 {
-            margin-top: 75px;
+            margin-top: 50px;
+            margin-left: 15px;
+            font-size: 3.25em;
         }
         .event {
             grid-row: 1/2;
             grid-column: 1/2;
             margin-top: 25px;
-            padding-top: 35px;
+            /* padding-top: 35px; */
         }
         .weather {
             grid-row: 2/3;
@@ -118,7 +120,7 @@
             padding-left: 0;
             margin-left: 0px;
             margin-left: 10px;
-            padding-left: 10px;
+            padding-right: 0px;
         }
         .spotlight {
             grid-row: 1/4;
@@ -174,18 +176,18 @@
         }
         .event h2 {
             font-size: 1.9em;}
-        #town {
+        /* #town {
             /* max-width: 100%; */
             /* max-height:max-content;
             display: block;
             justify-content: center;
-            align-items: center; */
+            align-items: center; 
             margin: 0;
             grid-row: 1/3;
             height: 722px;
-        }
+        } */
         #clouds {
-            max-width: 20%;
+            max-width: 50%;
             float: left;
             /* padding-top: 50px; */
             margin-left: 50px;
