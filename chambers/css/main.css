@@ -131,6 +131,7 @@ button{
   background-color:#F2A97E;
   order: 2;
   display: none;
+  color: black;
 }
 main {
   font-family: poppins;
