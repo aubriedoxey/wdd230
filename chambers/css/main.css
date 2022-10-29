@@ -420,6 +420,7 @@ footer {
   font-family: poppins;
   padding-bottom: 15px;
   padding-top: 15px;
+  color: #4a5560;
 }
 div>h2 {
   font-family: lexend;
@@ -457,4 +458,16 @@ div>h3 {
   text-align: center;
   /* align-self: center; */
   /* justify-self: center; */
+}
+picture img {
+  display: block;
+  margin: 0 auto;
+  padding: 0px;
+}
+#discover {
+  color: #4a5560;
+  font-size: 1.25em;
+}
+.visit {
+  font-size: 1.25em;
 }

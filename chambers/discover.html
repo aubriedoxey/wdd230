@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover Galt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script defer src="js/discover.js"></script>
+    <!-- <script defer src="js/main.js"></script> -->
 </head>
 <body>
-    <div id="content-discover">
+    <div id="content">
         <header>
             <img class="galt-logo" src="images/galt-city-logos.webp" alt="galt city logo">
             <h1 class="name">Galt</h1>
@@ -15,15 +22,79 @@
             <img class="social_media1" src="images/facebook.png" alt="facebook logo">
             <img class="social_media2" src="images/twitter.png" alt="twitter logo">
             <nav>
-                
                 <ul class="navigation">
                     <li><button onclick="toggleMenu()">&#9776;</button></li>
-                    <li><a href="#">Discover</a></li>
+                    <li><a href="discover.html">Discover</a></li>
                     <li><a href="#">Directory</a></li>
                     <li><a href="#">Join</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
+        <main id="discover">
+            <picture>
+                <img src="https://dummyimage.com/200x250/ccc/fff" data-src="images/galt-sign.jpg" id="galt-sign" alt="galt sign"> 
+            </picture>
+            <p class="sign">This is the city of Galt sign outside of the Chambers of Commerce.</p>
+            <picture>
+                <img src="https://dummyimage.com/200x250/ccc/fff" data-src="images/galt-high.jpg" id="galt-high" alt="galt high school"> 
+            </picture>
+            <p class="high-school">Galt is very home and family centered. This is one of the schools in Galt.</p>
+            <picture>
+                <img src="https://dummyimage.com/200x250/ccc/fff" data-src="images/night-life.jpg" id="galt-night" alt="galt night life"> 
+            </picture>
+            <p class="night">Galt has a budding night life. Businesses aimed towards night life activities will thrive in this growing town.</p>
+            <picture>
+                <img src="https://dummyimage.com/200x250/ccc/fff" data-src="images/historic-galt.jpg" id="historic-galt" alt="old building in Galt"> 
+            </picture>
+            <p class="historic">Galt has a lot of culture and history. It is perfect for anyone who want to explore and start any type of business.</p>
+            <picture>
+                <img src="https://dummyimage.com/200x250/ccc/fff" data-src="images/agriculture.jpg" id="field" alt="agriculture"> 
+            </picture>
+            <p class="ag-field">While Galt is a growing town, its roots in agriculture are still strong. There is a large focus on agriculture from vineyards to diaries here.</p>
+            <picture>
+                <img src="https://dummyimage.com/200x250/ccc/fff" data-src="images/velvet-grill.jpg" id="velvet-grill" alt="popular restaurant, Velvet Grill"> 
+            </picture>
+            <p class="restaurant">This is only one of the businesses that Galt supports. Velvet Grill is restaurant in Galt that serves delicious food.</p>
+            <picture>
+                <img src="https://dummyimage.com/200x250/ccc/fff" data-src="images/park.jpg" id="park" alt="popular park in Galt"> 
+            </picture>
+            <p class="park">Galt is very community and family centered. This is the pavilion at one of the many parks in Galt where the community comes together to bond.</p>
+            <picture>
+                <img src="https://dummyimage.com/200x250/ccc/fff" data-src="images/flea-market.jpg" id="flea-market" alt="Galt Flea Market"> 
+            </picture>
+            <p class="flea-market">Galt is known for it's wonderful flea market where people can sell their goods as well as support other fellow businesses.</p>
+            <picture>
+                <img src="https://dummyimage.com/200x250/ccc/fff" data-src="images/water-tower.jpg" id="water-tower" alt="galt water tower"> 
+            </picture>
+            <p class="water">Galt has a distinct water-tower. There is a strong sense of community that is sure to support all local businesses</p>
+            <h1 class="visit">Days Since Last Visited: <span id="diff"></span></h1>
+        </main>
+        <!-- <footer>
+            <div class="footer-content">
+                <img class="galt-logo2" src="images/galt-city-logos.webp" alt="galt city logo">
+                <div id="info1">
+                    <h2>Galt Chamber of Commerce</h2>
+                    <p>604 N Lincoln Way, Galt, CA 95632</p>
+                </div>
+                <div id="info2">
+                    <p>info@galtcc.org</p>
+                    <p>+(209) 745-2529</p>
+                    <div class="map">
+                        <a href="https://www.google.com/maps/place/Galt+District+Chamber+of+Commerce/@38.2671964,-121.3060217,16z/data=!4m5!3m4!1s0x809aa2da65d5575f:0x90e4e0fa77d4639c!8m2!3d38.2670384!4d-121.3023746">
+                            <img src="images/pin.jpg" alt="location pin" class="pin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div id="me">
+                <p class="time">&copy;<span class="year"></span> Galt Chamber</p> 
+                <h3>Aubrie L. Doxey</h3>
+                <p class="class">WDD 230 Project</p>
+                <p class="updates">Last Modification: <span class="updated"></span></p>
+            </div>
+        </footer> -->
+    </div>
 </body>
 </html>

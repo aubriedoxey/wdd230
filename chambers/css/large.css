@@ -210,4 +210,32 @@
             margin-top: 0;
             margin-bottom: 0;
         }
+        #galt-sign:hover {
+            box-shadow: 5px 5px 10px #316574;
+          }
+          
+          #galt-high:hover {
+            box-shadow: 5px 5px 10px #316574;
+          }
+          #galt-night:hover {
+            box-shadow: 5px 5px 10px #316574;
+          }
+          #historic-galt:hover {
+            box-shadow: 5px 5px 10px #316574;
+          }
+          #field:hover {
+            box-shadow: 5px 5px 10px #316574;
+          }
+          #velvet-grill:hover {
+            box-shadow: 5px 5px 10px #316574;
+          }
+          #park:hover {
+            box-shadow: 5px 5px 10px #316574;
+          }
+          #flea-market:hover {
+            box-shadow: 5px 5px 10px #316574;
+          }
+          #water-tower:hover {
+            box-shadow: 5px 5px 10px #316574;
+          }
 } 

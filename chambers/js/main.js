@@ -34,8 +34,4 @@ if (temp < 50 & windspeed > 3) {
         chill='N/A';
     }
 
-//local storage
-let current= Date.now();
-let previous = 1666630622520; 1666631134207
-let difference = current - previous;
-let diffdays=difference/1000/60/60/24;
+    
