@@ -471,3 +471,91 @@ picture img {
 .visit {
   font-size: 1.25em;
 }
+#discover {
+  grid-template-columns: 1fr;
+}
+#galt-sign {
+  height: 230px;
+  width: 350px;
+  margin-top: 25px;
+}
+.sign {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+#galt-high {
+  height: 230px;
+  width: 350px;
+}
+.high-school {
+  padding-left: 35px;
+  padding-right: 35px;
+  text-align: center;
+}
+#galt-night {
+  height: 230px;
+  width: 350px;
+}
+.night {
+  padding-left: 35px;
+  padding-right: 35px;
+  text-align: center;
+}
+#historic-galt {
+  height: 250px;
+  width: 350px;
+}
+.historic {
+  padding-left: 35px;
+  padding-right: 35px;
+  text-align: center;
+}
+#field {
+  height: 250px;
+  width: 350px;
+}
+.ag-field {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+#velvet-grill {
+  height: 250px;
+  width: 350px; 
+}
+.restaurant {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+#park {
+  height: 250px;
+  width: 350px;
+}
+.park {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+#flea-market {
+  height: 250px;
+  width: 350px;
+}
+.flea-market {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+#water-tower {
+  height: 250px;
+  width: 350px;
+}
+.water {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+.visit {
+  text-align: center;
+}
