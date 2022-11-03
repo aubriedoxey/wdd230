@@ -16,7 +16,7 @@
 <body>
     <div id="content">
         <header>
-            <img class="galt-logo" src="images/galt-city-logos.webp" alt="galt city logo">
+            <a href="index.html"> <img class="galt-logo" src="images/galt-city-logos.webp" alt="galt city logo"> </a>
             <h1 class="name">Galt</h1>
             <h2 class="name1">Chamber of Commerce</h2>
             <img class="social_media1" src="images/facebook.png" alt="facebook logo">
@@ -34,6 +34,18 @@
             <div id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
         </header>
         <div id="join-content">
+            <form method="get" action="thankyou.html">
+                <label for="fname">First Name*:</label>
+                <input type="text" name="firstname" id="fname" required>
+
+                <label for="lname">Last Name*:</label>
+                <input type="text" name="lastname" id="lname" required>
+
+                <label for="title">Business Position Title*:</label>
+                <input type="text" name="title" required id="title">
+
+                <button type="submit">Send your Request</button>
+            </form>
             <section id="form">
                 <form action="/my-handling-form-page" method="post">
                     <ul id="input-form">
