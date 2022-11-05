@@ -559,3 +559,70 @@ picture img {
 .visit {
   text-align: center;
 }
+/* join page */
+#join-content {
+  font-family: poppins;
+  color:#4a5560;
+  background-color: #EECCBA;
+  padding: 5px;
+}
+form {
+  margin: 40px;
+  margin-left: 12%;
+}
+form input:required {
+  border-left: red solid 6px;
+}
+form input:required:valid {
+  border-left: green solid 6px;
+}
+label, input {
+  display: block;
+}
+input {
+  margin-bottom: 25px;
+  padding: 5px;
+  width: 288px;
+}
+#radio-main input {
+  width: auto;
+}
+textarea {
+  height: 150px;
+  width: 300px;
+}
+#radio label, #radio input {
+  display: inline;
+  margin: 0px;
+}
+
+#thank-you {
+  display: block;
+  text-align: center;
+  color: #4a5560;
+  background-color: #EECCBA;
+  padding: 100px;
+}
+.input-info {
+  margin: 0px;
+  font-size: .75em;
+  width: 300px;
+}
+#button3 {
+  padding: 10px;
+  color: #2f373e;
+  background-color: #CFECEC;
+  margin-top: 15px;
+  margin-left: 25%;
+  width: auto;
+}
+#button3:hover {
+  background-color: #4a5560;
+  color: #7EF2F2;
+}
+#message {
+  margin-top: 5px;
+}
+#message1{
+  margin-top: 25px;
+}

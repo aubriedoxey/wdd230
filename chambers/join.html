@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/large.css">
     <link rel="icon" href="images/favicon.ico">
     <script defer src="js/main.js"></script>
-    <script defer src="js/discover.js"></script>
+    <!-- <script defer src="js/discover.js"></script> -->
 </head>
 <body>
     <div id="content">
@@ -42,56 +42,71 @@
                 <input type="text" name="lastname" id="lname" required>
 
                 <label for="title">Business Position Title*:</label>
-                <input type="text" name="title" required id="title">
+                <p class="input-info">(Only letters, spaces and dashes and at least 7 characters)</p>
+                <input type="text" name="title" required id="title" pattern="[- A-Za-z]+" minlength="7">
 
-                <button type="submit">Send your Request</button>
+                <label for="email">Email*:</label>
+                <input type="email" name="email" required id="email">
+
+                <label for="telephone">Cell Phone Number*:</label>
+                <input type="tel" name="telephone" required id="telephone">
+
+                <label for="business">Business Name*:</label>
+                <input type="text" name="business" required id="business">
+
+                <label id="member">Enter Your Membership</label>
+                <div id="radio-main">
+                    <div id="radio">
+                        <input type="radio" id="one" name="m-level" value="level1">
+                        <label for="one">Non Profit</label>
+                    </div>
+                    <div id="radio">
+                        <input type="radio" id="two" name="m-level" value="level2">
+                        <label for="two">Bronze</label>
+                    </div>
+                    <div id="radio">
+                        <input type="radio" id="three" name="m-level" value="level3">
+                        <label for="three">Silver</label>
+                    </div>
+                    <div id="radio">
+                        <input type="radio" id="four" name="m-level" value="level4">
+                        <label for="four">Gold</label>
+                    </div>
+                </div>
+                <label for="message" id="message1">Business Description:</label>
+                <textarea id="message" placeholder="Your business description here"></textarea>
+
+                <input id="date" type="hidden" name="todaydate">
+                
+                <input id="button3" type="submit" value="Join the Chamber">
             </form>
-            <section id="form">
-                <form action="/my-handling-form-page" method="post">
-                    <ul id="input-form">
-                        <li>
-                            <label for ="name">Name:</label>
-                            <input type="text" id="name" name="user_name">
-                        </li>
-                        <li>
-                            <label for="mail">E-mail:</label>
-                            <input type="email" id="mail" name="user_email">
-                        </li>
-                        <li>
-                            <label for="msg">Message:</label>
-                            <textarea id="msg" name="user_message"></textarea>
-                        </li>
-                        <li class="button">
-                                <button type="submit">Send your Request</button>
-                        </li>
-                    </ul>
-                </form>
-                <div id="feedback"></div>
-                <footer>
-                    <div class="footer-content">
-                        <img class="galt-logo2" src="images/galt-city-logos.webp" alt="galt city logo">
-                        <div id="info1">
-                            <h2>Galt Chamber of Commerce</h2>
-                            <p>604 N Lincoln Way, Galt, CA 95632</p>
-                        </div>
-                        <div id="info2">
-                            <p>info@galtcc.org</p>
-                            <p>+(209) 745-2529</p>
-                            <div class="map">
-                                <a href="https://www.google.com/maps/place/Galt+District+Chamber+of+Commerce/@38.2671964,-121.3060217,16z/data=!4m5!3m4!1s0x809aa2da65d5575f:0x90e4e0fa77d4639c!8m2!3d38.2670384!4d-121.3023746">
-                                    <img src="images/pin.jpg" alt="location pin" class="pin">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                    <div id="me">
-                        <p class="time">&copy;<span class="year"></span> Galt Chamber</p> 
-                        <h3>Aubrie L. Doxey</h3>
-                        <p class="class">WDD 230 Project</p>
-                        <p class="updates">Last Modification: <span class="updated"></span></p>
-                    </div>
-                </footer>
         </div>
+            <footer>
+                <div class="footer-content">
+                    <img class="galt-logo2" src="images/galt-city-logos.webp" alt="galt city logo">
+                    <div id="info1">
+                        <h2>Galt Chamber of Commerce</h2>
+                        <p>604 N Lincoln Way, Galt, CA 95632</p>
+                    </div>
+                    <div id="info2">
+                        <p>info@galtcc.org</p>
+                        <p>+(209) 745-2529</p>
+                        <div class="map">
+                            <a href="https://www.google.com/maps/place/Galt+District+Chamber+of+Commerce/@38.2671964,-121.3060217,16z/data=!4m5!3m4!1s0x809aa2da65d5575f:0x90e4e0fa77d4639c!8m2!3d38.2670384!4d-121.3023746">
+                                <img src="images/pin.jpg" alt="location pin" class="pin">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div id="me">
+                    <p class="time">&copy;<span class="year"></span> Galt Chamber</p> 
+                    <h3>Aubrie L. Doxey</h3>
+                    <p class="class">WDD 230 Project</p>
+                    <p class="updates">Last Modification: <span class="updated"></span></p>
+                </div>
+            </footer>
+        </div>
+        
 </body>
 </html>

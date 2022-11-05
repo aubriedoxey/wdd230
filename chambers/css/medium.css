@@ -176,4 +176,21 @@
         padding-left: 55px;
         padding-right: 55px;
       }
+      form {
+        font-size: 1.5em;
+      }
+      #button3 {
+        margin-left: 17%;
+        text-align: center;
+      }
+      form {
+        margin: 40px;
+        margin-left: 25%;
+      }
+      textarea {
+        width: 500px;
+      }
+      input {
+        width: 488px;
+      }
 }
