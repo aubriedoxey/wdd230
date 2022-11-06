@@ -60,7 +60,7 @@
         color: #4a5560;
         text-align: center;
     }
-    header a:hover {
+    header li:hover {
         color: #7EF2F2;;
         background-color: #4a5560;
     }
@@ -382,7 +382,7 @@
             width: 400px;
           }
           .input-info {
-            width: 400px;
+            width: 200px;
           }
           textarea {
             width: 400px;

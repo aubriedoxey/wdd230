@@ -21,9 +21,12 @@ nav {
   max-width: 760px;
   align-self: center;
 }
-header a:hover {
+.navigation a:hover {
   color: #7EF2F2;
   background-color: #4a5560;
+}
+.galt-logo a:hover {
+  background-color: #cfecec;
 }
 .navigation {
   list-style: none;
@@ -592,9 +595,13 @@ textarea {
   height: 150px;
   width: 300px;
 }
-#radio label, #radio input {
+#radio1 label, #radio1 input, #radio2 label, #radio2 input, #radio3 label, #radio3 input, #radio4 label, #radio4 input {
   display: inline;
   margin: 0px;
+}
+
+#radio1 label, #radio1 input {
+  margin-top: 15px;
 }
 
 #thank-you {
