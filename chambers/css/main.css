@@ -565,6 +565,7 @@ picture img {
   color:#4a5560;
   background-color: #EECCBA;
   padding: 5px;
+  grid-template-columns: 1fr;
 }
 form {
   margin: 40px;
@@ -625,4 +626,7 @@ textarea {
 }
 #message1{
   margin-top: 25px;
+}
+#member-info {
+  display: none;
 }

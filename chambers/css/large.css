@@ -372,6 +372,19 @@
           }
           form {
             margin: 40px;
-            margin-left: 33%;
+            margin-left: 10%;
+          }
+          #np-member, #bronze-member, #silver-member, #gold-member {
+            width: 400px;
+            justify-content: center;
+          }
+          input {
+            width: 400px;
+          }
+          .input-info {
+            width: 400px;
+          }
+          textarea {
+            width: 400px;
           }
 } 
