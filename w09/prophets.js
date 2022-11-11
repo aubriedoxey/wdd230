@@ -45,4 +45,8 @@ function displayProphets(item) {
     card.appendChild(img);
     document.querySelector('.card').appendChild(card);
 
+    card.forEach((item)=> {
+        item.remove();
+    
+    })
 }
