@@ -680,7 +680,7 @@ textarea {
   margin: 15px;
 }
 .card p:nth-child(4){
-  color: rgb(9, 79, 255);
+  color: rgb(0, 33, 117);
   text-decoration: underline;
 }
 .businesses {
@@ -695,7 +695,7 @@ textarea {
   padding-top: 15px;
 }
 .businesses td:nth-child(4){
-  color: rgb(9, 79, 255);
+  color: rgb(0, 33, 117);
   text-decoration: underline;
 }
 .businesses td {
