@@ -393,4 +393,7 @@
       text-align: center;
       justify-items: center;
     }
+    .businesses {
+      display: none;
+    }
 } 

@@ -94,7 +94,7 @@ function showBusiness(item) {
     document.querySelector('.card').style.display="none";    
 }
 function showCard(item) {
-    document.querySelector('.card').style.display= "table";    
+    document.querySelector('.card').style.display= "grid";    
     document.querySelector('.businesses').style.display="none";    
 
 }
