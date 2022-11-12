@@ -224,4 +224,10 @@
         margin: 15px;
         font-family: poppins;
       }
+      /* .businesses {
+        display: none;
+      } */
+      .businesses td {
+        display: table-cell;
+      }
 }

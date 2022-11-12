@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/large.css">
     <link rel="icon" href="images/favicon.ico">
     <script defer src="js/main.js"></script>
-    <script defer src="js/discover.js"></script>
+    <script defer src="js/directory.js"></script>
 </head>
 <body>
     <div id="content">
@@ -34,8 +34,17 @@
             <div id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
         </header>
         <main id="directory">
+            <button id="grid-display" onclick="showBusiness()">Table</button>
+            <button id="card-display" onclick="showCard()">Cards</button>
             <div>
-                <p>lmdbl</p>
+                <div class="card">
+                </div>
+                <table class="businesses">
+                    <tbody>
+                        <tr>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </main>
         <footer>
