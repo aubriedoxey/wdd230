@@ -230,6 +230,10 @@
       .businesses td {
         display: table-cell;
       }
+      .businesses td:nth-child(3){
+        width: 140px;
+        text-align: center;
+      }
       .card {
         display: grid;
         grid-template-columns: 1fr 1fr;
