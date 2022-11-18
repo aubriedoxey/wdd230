@@ -154,6 +154,10 @@ main {
   border-radius: 15px;
   font-size: 1.25em;
 }
+#btn-join a {
+  text-decoration: none;
+  color: #4a5560;
+}
 .hero {
   border-style: solid;
   border-color: #4a5560;
