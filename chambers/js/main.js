@@ -29,28 +29,26 @@ const getWeather = async () => {
     console.log(jsObject);
     // °F = (K - 273.15)* 1.8000 + 32.00
     document.querySelector('#current-temp').textContent = ((jsObject.main.temp-273.15)*1.8+32).toFixed(2);
-    document.querySelector('#ws').textContent = (jsObject.wind.speed*2).toFixed(2);
+    document.querySelector('#ws').textContent = (jsObject.wind.speed).toFixed(2);
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
     //document.querySelector('#icon-src').textContent = iconsrc;
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
     document.querySelector('figcaption').textContent = desc;
-  };
-getWeather();
-getWeather();
-
-//weather updates
-
 let temp = document.querySelector('#current-temp').textContent;
 let windspeed = document.querySelector('#ws').textContent;
 let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16)));
 if (temp < 50 & windspeed > 3) {
-    document.querySelector('#wc').textContent = chill;
+    document.querySelector('#wc').innerHTML = chill+" &deg;F";
 } 
     else {
         chill='N/A';
     }
+
+  };
+getWeather();
+//weather updates
 
 //join form
 const feedbackElement = document.getElementById('feedback');
