@@ -22,9 +22,27 @@ if (date.getDay() == 1 || date.getDay() == 2) {
     document.querySelector('#banner').style.display = 'block';
 }
 
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5351428&appid=9fa85cce9ff44eb89eb0511a9301b64f";
+const getWeather = async () => {
+    const response = await fetch(apiURL);
+    const jsObject = await response.json();
+    console.log(jsObject);
+    // °F = (K - 273.15)* 1.8000 + 32.00
+    document.querySelector('#current-temp').textContent = ((jsObject.main.temp-273.15)*1.8+32).toFixed(2);
+    document.querySelector('#ws').textContent = (jsObject.wind.speed*2).toFixed(2);
+    const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+    const desc = jsObject.weather[0].description;
+    //document.querySelector('#icon-src').textContent = iconsrc;
+    document.querySelector('#weathericon').setAttribute('src', iconsrc);
+    document.querySelector('#weathericon').setAttribute('alt', desc);
+    document.querySelector('figcaption').textContent = desc;
+  };
+getWeather();
+getWeather();
+
 //weather updates
 
-let temp = document.querySelector('#t').textContent;
+let temp = document.querySelector('#current-temp').textContent;
 let windspeed = document.querySelector('#ws').textContent;
 let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16)));
 if (temp < 50 & windspeed > 3) {
@@ -34,22 +52,6 @@ if (temp < 50 & windspeed > 3) {
         chill='N/A';
     }
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5351428&appid=9fa85cce9ff44eb89eb0511a9301b64f";
-const getWeather = async () => {
-    const response = await fetch(apiURL);
-    const jsObject = await response.json();
-    console.log(jsObject);
-    // °F = (K - 273.15)* 1.8000 + 32.00
-    document.querySelector('#current-temp').textContent = ((jsObject.main.temp-273.15)*1.8+32).toFixed(2);
-    const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
-    const desc = jsObject.weather[0].description;
-    document.querySelector('#icon-src').textContent = iconsrc;
-    document.querySelector('#weathericon').setAttribute('src', iconsrc);
-    document.querySelector('#weathericon').setAttribute('alt', desc);
-    document.querySelector('figcaption').textContent = desc;
-  };
-getWeather();
-getWeather();
 //join form
 const feedbackElement = document.getElementById('feedback');
     const formElement = document.forms[0];

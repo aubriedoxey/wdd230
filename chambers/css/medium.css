@@ -1,4 +1,4 @@
-@media screen and (min-width: 725px) {
+@media screen and (min-width:630px) {
     .galt-logo {
         max-width: 75%;
     }
@@ -23,8 +23,9 @@
     /* #town {
         /* margin-left: 20px; */
     .hero h1 {
-        margin-left: 50px;
+        margin-left: 40px;
         margin-top: 40px;
+        font-size: 50px;
     }
     .event {
         grid-row: 5/6;
@@ -113,12 +114,6 @@
     }
     .map {
         padding-right: 100px;
-    }
-    /* .sl1 h2 {
-        font-size: 150%;
-    } */
-    .hero h1 {
-        font-size: 4em;
     }
     #clouds {
         max-width: 70%;
