@@ -477,8 +477,9 @@ picture img {
   grid-template-columns: 1fr;
 }
 #galt-sign {
-  height: 230px;
-  width: 350px;
+  /* height: 230px; */
+  /* width: 350px; */
+  width: 85%;
   margin-top: 25px;
 }
 .sign {
@@ -487,8 +488,9 @@ picture img {
   text-align: center;
 }
 #galt-high {
-  height: 230px;
-  width: 350px;
+  /* height: 230px; */
+  /* width: 350px; */
+  width: 85%;
 }
 .high-school {
   padding-left: 35px;
@@ -496,8 +498,8 @@ picture img {
   text-align: center;
 }
 #galt-night {
-  height: 230px;
-  width: 350px;
+  /* height: 230px; */
+  width: 85%;
 }
 .night {
   padding-left: 35px;
@@ -505,8 +507,9 @@ picture img {
   text-align: center;
 }
 #historic-galt {
-  height: 250px;
-  width: 350px;
+  /* height: 250px;
+  width: 350px; */
+  width: 85%;
 }
 .historic {
   padding-left: 35px;
@@ -514,8 +517,9 @@ picture img {
   text-align: center;
 }
 #field {
-  height: 250px;
-  width: 350px;
+  /* height: 250px;
+  width: 350px; */
+  width: 85%;
 }
 .ag-field {
   padding-left: 25px;
@@ -523,8 +527,9 @@ picture img {
   text-align: center;
 }
 #velvet-grill {
-  height: 250px;
-  width: 350px; 
+  /* height: 250px;
+  width: 350px;  */
+  width: 85%;
 }
 .restaurant {
   padding-left: 25px;
@@ -532,8 +537,9 @@ picture img {
   text-align: center;
 }
 #park {
-  height: 250px;
-  width: 350px;
+  /* height: 250px;
+  width: 350px; */
+  width: 85%;
 }
 .park {
   padding-left: 25px;
@@ -541,8 +547,9 @@ picture img {
   text-align: center;
 }
 #flea-market {
-  height: 250px;
-  width: 350px;
+  /* height: 250px;
+  width: 350px; */
+  width: 85%;
 }
 .flea-market {
   padding-left: 25px;
@@ -550,8 +557,9 @@ picture img {
   text-align: center;
 }
 #water-tower {
-  height: 250px;
-  width: 350px;
+  /* height: 250px;
+  width: 350px; */
+  width: 85%;
 }
 .water {
   padding-left: 25px;

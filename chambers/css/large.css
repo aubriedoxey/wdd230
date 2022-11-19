@@ -216,8 +216,8 @@
           #galt-sign {
             grid-row: 1/2;
             grid-column: 1/2;
-            height: 230px;
-            width: 350px;
+            /* height: 230px;
+            width: 350px; */
             margin-top: 25px;
           }
           .sign {
@@ -230,8 +230,8 @@
           #galt-high {
             grid-row: 1/2;
             grid-column: 2/3;
-            height: 230px;
-            width: 350px;
+            /* height: 230px;
+            width: 350px; */
             margin-top: 25px;
           }
           .high-school {
@@ -244,8 +244,8 @@
           #galt-night {
             grid-row: 1/2;
             grid-column: 3/4;
-            height: 230px;
-            width: 350px;
+            /* height: 230px;
+            width: 350px; */
             margin-top: 25px;
           }
           .night {
@@ -258,8 +258,8 @@
           #historic-galt {
             grid-row: 3/4;
             grid-column: 1/2;
-            height: 250px;
-            width: 350px;
+            /* height: 250px;
+            width: 350px; */
           }
           .historic {
             grid-row: 4/5;
@@ -271,8 +271,8 @@
           #field {
             grid-row: 3/4;
             grid-column: 2/3;
-            height: 250px;
-            width: 350px;
+            /* height: 250px;
+            width: 350px; */
           }
           .ag-field {
             grid-row: 4/5;
@@ -284,8 +284,8 @@
           #velvet-grill {
             grid-row: 3/4;
             grid-column: 3/4;
-            height: 250px;
-            width: 350px; 
+            /* height: 250px;
+            width: 350px;  */
           }
           .restaurant {
             grid-row: 4/5;
@@ -297,8 +297,8 @@
           #park {
             grid-row: 5/6;
             grid-column: 1/2;
-            height: 250px;
-            width: 350px;
+            /* height: 250px;
+            width: 350px; */
           }
           .park {
             grid-row: 6/7;
@@ -310,8 +310,8 @@
           #flea-market {
             grid-row: 5/6;
             grid-column: 2/3;
-            height: 250px;
-            width: 350px;
+            /* height: 250px;
+            width: 350px; */
           }
           .flea-market {
             grid-row: 6/7;
@@ -323,8 +323,8 @@
           #water-tower {
             grid-row: 5/6;
             grid-column: 3/4;
-            height: 250px;
-            width: 350px;
+            /* height: 250px;
+            width: 350px; */
           }
           .water {
             grid-row: 6/7;
