@@ -37,7 +37,7 @@ const image = document.querySelectorAll('img');
 
 if (!localStorage.getItem('lastvisit')) {
     localStorage.setItem('lastvisit', Date.now());
-    document.getElementById('diff').textContent = 'This is your last visit';
+    document.getElementById('diff').textContent = 'This is your first visit';
 } else {
     setStyles();
 }

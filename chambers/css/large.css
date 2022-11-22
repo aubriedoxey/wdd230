@@ -3,6 +3,7 @@
         display: grid;
         grid-template-columns: .25fr .75fr 1fr .25fr .25fr;
         padding: 15px;
+        position: sticky;
     }
     .name {
         font-size: 3.5em;
@@ -96,7 +97,7 @@
     }
     main {
         display: grid;
-        grid-template-columns: 1.25fr 2fr 1.25fr;
+        grid-template-columns: 1fr 2fr 1fr;
         }
         .hero {
             grid-column: 2/3;

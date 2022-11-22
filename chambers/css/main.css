@@ -8,7 +8,6 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr .75fr .75fr .75fr;
     padding: 15px;
-    position: sticky;
     top: 0px;
     z-index: 1;
     /* text-align: center; */
@@ -303,7 +302,7 @@ figure {
   font-size: 1.15em;
 }
 #truck {
-  max-width: 40%;
+  max-width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -371,7 +370,7 @@ figure {
   font-size: 1.15em;
 }
 #treehouse{
-  max-width: 40%;
+  max-width: 30%;
   margin: 0;
 }
 #below-line3 {
