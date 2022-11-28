@@ -468,6 +468,8 @@ picture img {
   color: #4a5560;
   font-size: 1.25em;
   background-color: #EECCBA;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .visit {
   font-size: 1.25em;
