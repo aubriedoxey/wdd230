@@ -5,6 +5,8 @@
     }
     .logo {
         max-width: 70%;
+        margin-top: 0px;
+        padding-top: 0px;
     }
     header nav {
         display: flex; 
