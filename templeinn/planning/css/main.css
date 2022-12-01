@@ -20,21 +20,21 @@ nav {
 }
 .logo {
     display: block;
-    max-width: 150px;
+    max-width: 35%;
     margin: 0 auto;
     align-self: center;
     justify-self: center;
 }
 #logo {
     display: block;
-    max-width: 150px;
+    max-width: 25%;
     margin: 0 auto;
     align-self: center;
     justify-self: center;
 }
 #wireframe1large, #wireframe1medium, #wireframe1small {
     display: block;
-    max-width: 250px;
+    max-width: 80%;
     margin: 0 auto;
     justify-self: center;
 }
@@ -76,7 +76,7 @@ h3 {
     background-color: #D2D8D9;
   }
   .secondary {
-    background-color:#D5BDB4;
+    background-color:#f0e4e0;
   }
   .accent1 {
     background-color: #D98E82;
@@ -103,7 +103,7 @@ h3 {
     font-size: .75em;
   }
   main {
-    background-color: #EECCBA;
+    background-color: #f0e4e0;
     padding: 10px;
     text-align: center;
   }

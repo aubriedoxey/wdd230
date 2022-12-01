@@ -1,9 +1,12 @@
 @media screen and (min-width: 700px) {
     #content {
-        margin-right: 100px;
-        margin-left: 100px;
+        margin-right: 150px;
+        margin-left: 150px;
     }
-    nav {
+    .logo {
+        max-width: 70%;
+    }
+    header nav {
         display: flex; 
         justify-content: space-around;
     }
