@@ -1,0 +1,10 @@
+@media screen and (min-width: 1050px) {
+    #content {
+        margin-right: 300px;
+        margin-left: 300px;
+    }
+    nav {
+        display: flex; 
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,156 @@
+#content {
+    margin: 15px;
+}
+header {
+    font-family: lexend;
+    /* display: flex; */
+    /* grid-template-columns: .5fr 1.5fr; */
+    background-color: #D2D8D9;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color:#46858C;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.25em;
+}
+nav {
+  font-family: poppins;
+  font-size: 1.25em;
+  color: #46858C;
+}
+.logo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto;
+    align-self: center;
+    justify-self: center;
+}
+#logo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto;
+    align-self: center;
+    justify-self: center;
+}
+#wireframe1large, #wireframe1medium, #wireframe1small {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+    justify-self: center;
+}
+main p {
+    font-family: poppins;
+    color: #346b71;
+    text-align: left;
+    margin: 10px;
+    font-size: 1.25em;
+}
+h1 {
+    margin-top: 0px;
+    color: #46858C;
+    font-family: lexend;
+}
+h2 {
+    font-family: lexend;
+    color: #346b71;
+    text-align: center;
+}
+h3 {
+    font-family: lexend;
+    color: #346b71;
+    text-align: center;
+}
+.sitemap {
+    font-family: poppins;
+    color: #346b71;
+}
+.colors {
+    background-color: aliceblue;
+    padding: 5px;
+    color: black;
+    width: 100%;
+    min-width: 50px;
+    text-align: center;
+  }
+.primary {
+    background-color: #D2D8D9;
+  }
+  .secondary {
+    background-color:#D5BDB4;
+  }
+  .accent1 {
+    background-color: #D98E82;
+  }
+  .accent2{
+    background-color: #46858C;
+  }
+  .text-color {
+    background-color: #346b71;
+    color: aliceblue;
+  }
+  .name {
+    /* grid-column: 2/3;
+    grid-row: 1/2; */
+    text-align: center;
+    align-self: center;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    color:#46858C;
+    font-size: .75em;
+  }
+  main {
+    background-color: #EECCBA;
+    padding: 10px;
+    text-align: center;
+  }
+.palette {
+    font-family: poppins;
+}
+.color-of-text {
+    color: #346b71;
+    font-family: poppins;
+}
+.audience {
+    color: #346b71;
+    font-family: lexend;
+}
+.audience-info {
+    text-align: left;
+    font-size: 1.25em;
+}
+.font {
+    color: #346b71;
+    text-align: center;
+    font-family: lexend;
+    font-size: 2.5em;
+}
+.heading {
+    color: #346b71;
+}
+.original-paragraph, .start-example {
+    text-align: center;
+    font-size: 1.25em;
+}
+.example {
+    font-size: 1.25em;
+    margin: 5px;
+}
+.domain {
+    text-align: center;
+}
+.working-woman {
+  max-width: 125px;
+  margin: 25px;
+}
+.working-man {
+  max-width: 125px;
+  margin: 25px;
+}
+.community {
+  max-width: 300px;
+  margin: 25px;
+}
