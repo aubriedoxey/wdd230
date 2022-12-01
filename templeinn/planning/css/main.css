@@ -8,7 +8,7 @@ header {
     background-color: #D2D8D9;
     padding-bottom: 25px;
     padding-top: 25px;
-    color:#46858C;
+    color:#346b71;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 1.25em;
@@ -16,7 +16,7 @@ header {
 nav {
   font-family: poppins;
   font-size: 1.25em;
-  color: #46858C;
+  color: #346b71;
 }
 .logo {
     display: block;
