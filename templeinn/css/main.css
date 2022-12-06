@@ -166,4 +166,56 @@ main {
   #temple-info {
     padding-top: 50px;
     grid-row: 5/6;
+    color: #346b71;
+  }
+  footer {
+    text-align: center;
+    align-self: center;
+    background-color: #D2D8D9;
+    font-family: poppins;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #4a5560;
+  }
+  div>h2 {
+    font-family: lexend;
+  }
+  div>h3 {
+    font-family: lexend;
+    margin: 0 auto;
+  }
+  .logo2 {
+    /* display: block; */
+    max-width: 125px;
+    /* margin: 0 auto; */
+    align-self: center;
+    justify-self: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-radius: 15px;
+  }
+  .class {
+    margin: 0 auto;
+  }
+  .time {
+    margin: 0 auto;
+  }
+  .updates {
+    margin: 0 auto;
+  }
+  .pin {
+    max-width: 35px;
+    /* display: block;
+    align-self: center;
+    justify-self: center; */
+  }
+  .map {
+    text-align: center;
+    /* align-self: center; */
+    /* justify-self: center; */
+  }
+  picture img {
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
   }
