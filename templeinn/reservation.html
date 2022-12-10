@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script defer src="scripts/main.js"></script>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <img class="logo" src="images/temple-inn-&-suites-trans-crop.png" alt="Temple Inn & Suites logo">
+            <!-- <h1 class="name">Temple Inn and Suites</h1> -->
+            <img class="social_media1" src="images/facebook.png" alt="facebook logo">
+            <img class="social_media2" src="images/twitter.png" alt="twitter logo">
+            <nav>
+                <ul class="navigation">
+                    <li><button onclick="toggleMenu()">&#9776;</button></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="reception.html">Reception</a></li>
+                    <li><a href="missionary.html">Full-time Temple Missionary</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="reservation">
+            <h1>Make a Reservation Today</h1>
+            <div id="reservation-content">
+                <form method="get" action="thankyou.html">
+                    <div id="form">
+                        <label for="fname">First Name*:</label>
+                        <input type="text" name="firstname" id="fname" required>
+    
+                        <label for="lname">Last Name*:</label>
+                        <input type="text" name="lastname" id="lname" required>
+    
+                        <label for="email">Email*:</label>
+                        <input type="email" name="email" required id="email" placeholder="johnsmith@hotmail.com">
+    
+                        <label for="telephone">Cell Phone Number*:</label>
+                        <input type="tel" name="telephone" required id="telephone">
+                        <label for="occupants">Number of Occupants*:</label>
+                        <input type="number" name="occupants" required id="occupants" minlength="2">
+                        <label for="room">Type of Room Required*:</label>
+                        <div id="radio-room">
+                            <div id="radioroom1">
+                                <input type="radio" id="one" name="1-level" value="room1">
+                                <label for="one">1 King Sized Bed</label>
+                            </div>
+                            <div id="radioroom2">
+                                <input type="radio" id="two" name="2-level" value="room2">
+                                <label for="two">2 Queen Sized Beds</label>
+                            </div>
+                            <div id="radioroom3">
+                                <input type="radio" id="three" name="3-level" value="room3">
+                                <label for="three">Conjoined Room</label>
+                            </div>
+                        </div>
+                        <label for="date-reservation-start">Beginning Date of Reservation*:</label>
+                        <input type="date" name="date" required id="date-of-reservation-start">
+                        <label for="date-reservation-end">Ending Date of Reservation*</label>
+                        <input type="date" name="date" required id="date-of-reservation-end">
+                        <label id="reserve">Enter Location of Hotel*</label>
+                        <div id="radio-main">
+                            <div id="radio1">
+                                <input type="radio" id="one" name="m-level" value="level1">
+                                <label for="one">San Diego, CA</label>
+                            </div>
+                            <div id="radio2">
+                                <input type="radio" id="two" name="m-level" value="level2">
+                                <label for="two">Boston, MA</label>
+                            </div>
+                            <div id="radio3">
+                                <input type="radio" id="three" name="m-level" value="level3">
+                                <label for="three">Salt Lake City, UT</label>
+                            </div>
+                            <div id="radio4">
+                                <input type="radio" id="four" name="m-level" value="level4">
+                                <label for="four">San Juan, Puerto Rico</label>
+                            </div>
+                        </div>
+                        <label for="message" id="message1">Special Accommodations:</label>
+                        <textarea id="message" placeholder="Your special accommodations"></textarea>
+                    </div>
+                    <input id="date" type="hidden" name="todaydate">
+                    <input id="button3" type="submit" value="Set Reservation">
+                </form>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <img class="logo2" src="images/temple-inn-&-suites-trans-crop.png" alt="galt city logo">
+                <div id="info1">
+                    <h2>Temple Inn & Suites</h2>
+                    <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+                </div>
+                <div id="info2">
+                    <p>info@templeinn.org</p>
+                    <p>+(619)295-7601</p>
+                    <div class="map">
+                        <a href="https://www.google.com/maps/place/4800+Montgomery+Ln,+Bethesda,+MD+20814/@43.810414,-111.7886964,14z/data=!4m5!3m4!1s0x89b7c97b6b3b5b43:0xceab47cd19a23a3b!8m2!3d38.9832518!4d-77.0955318">
+                            <img src="images/pin.jpg" alt="location pin" class="pin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div id="me">
+                <p class="time">&copy;<span class="year"></span> Temple Inn & Suites</p> 
+                <h3>Aubrie L. Doxey</h3>
+                <p class="class">WDD 230 Final</p>
+                <p class="updates">Last Modification: <span class="updated"></span></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

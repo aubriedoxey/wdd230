@@ -1,0 +1,48 @@
+{
+    "temples": [
+      {
+        "name": "Boston, MA Temple",
+        "address":"100 Hinckley Way, Belmont, MA 02478",
+        "phone": "(617)993-9993",
+        "services":"Clothing rental available. No cafeteria available. No patron housing available. Distribution center nearby.",
+        "history":"The temple was announced on 30 September 1995. The groundbreaking was held on 13 June 1997. The temple was dedicated on 1 October 2000.",
+        "ordinance":"Initiatories are every half hour from 9:00 AM to 8:00 PM with a break from 1:00 PM to 5:30 PM.",
+        "session":"Endowment sessions begin at 10:00 AM, 12:00 PM, 6:00 PM, 7:00 PM",
+        "closure":"Saturday, 24 December 2022; Saturday, 31 December 2022; Monday, 20 March 2023 - Monday, 3 April 2023; Monday, 11 September 2023 - Monday, 25 September 2023",
+        "imageurl": "images/boston-temple.jpg"
+      },
+      {
+        "name": "San Juan, PR Temple",
+        "address":"123 Calle Ronda, Urbanizacion Villa Andalucia, San Juan PR 00926",
+        "phone": "(787)522-2020",
+        "services":"N/A",
+        "history":"The temple was announced on 7 October 2018. The groundbreaking was held on 4 May 2019. The temple will be dedicated on 15 January 2023.",
+        "ordinance schedule":"TBA",
+        "session schedule":"TBA",
+        "temple closure schedule":"TBA",
+        "imageurl": "images/puerto-rico-temple.jpg"
+      },
+      {
+        "name": "Salt Lake City, UT Temple",
+        "address":"50 W North Temple St., Salt Lake City, UT 84150",
+        "phone": "N/A",
+        "services":"N/A",
+        "history":"The temple was announced on 28 July 1847. The groundbreaking was held on 14 February 1853. The temple was dedicated on 6 April 1893. Closed for renovations.",
+        "ordinance schedule":"TBA",
+        "session schedule":"TBA",
+        "temple closure schedule":"Currently closed due to renovations.",
+        "imageurl": "images/salt-lake-temple.jpg"
+      },
+      {
+        "name": "San Diego, CA Temple",
+        "address":"7474 Charmant Dr., San Diego, CA 92122",
+        "phone": "(858)622-0991",
+        "services":"Clothing rental available. No cafeteria available. No patron housing available. Distribution center nearby.",
+        "history":"The temple was announced on 7 April 1984. The groundbreaking was held on 27 February 1988. The temple was dedicated on 25 April 1993.",
+        "ordinance schedule":"Initiatories are every half hour from 8:00 AM to 8:00 PM.",
+        "session schedule":"Endowment sessions begin every half an hour at 8:00 AM until 7:00 PM",
+        "temple closure schedule":"Saturday, 24 December 2022; Saturday, 31 December 2022; Monday, 20 March 2023 - Monday, 3 April 2023; Tuesday, 4 July 2023",
+        "imageurl": "images/san-diego-temple.jpg"
+      }
+    ]
+}

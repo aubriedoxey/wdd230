@@ -8,8 +8,16 @@
         margin-top: 0px;
         padding-top: 0px;
     }
+    header {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
     header nav {
         display: flex; 
         justify-content: space-around;
+    }
+    .navigation li:first-child {
+        grid-column: 5/6;
+        grid-row: 1/2;
     }
 }
