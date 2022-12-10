@@ -1,6 +1,6 @@
 //ASYNC AWAIT Fetch
 
-const requestURL = 'https://aubriedoxey.github.io/wdd230/templeinn/temples.json';
+const requestURL = 'https://aubriedoxey.github.io/wdd230/templeinn/temple.json';
 
 async function getTemples(requestURL) {
     const response = await fetch(requestURL);
