@@ -32,9 +32,37 @@
             </nav>
         </header>
         <main id="missionary">
-        
+            <img src="images/king-room.jpg" alt="king sized room" id="king-room">
+            <p id="king-info">Room with one king-sized bed</p>
+            <img src="images/2queen-room.jpg" alt="2 queen sized beds room" id="queen-room">
+            <p id="queen-info">Room with two queen-sized beds</p>
+            <img src="images/adjoined-room.jpg" alt="adjoined hotel rooms" id="adjoined-rooms">
+            <p id="adjoined-info">Adjoined rooms with two queen-sized beds in each</p>
+            <p id="add-info">Please reach out to us if you have any questions or problems!</p>
+            <section id="form2">
+                <form action="/my-handling-form-page" method="post">
+                    <ul id="input-form">
+                        <li>
+                            <label for ="name">Name:</label>
+                            <input type="text" id="name" name="user_name">
+                        </li>
+                        <li>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_email">
+                        </li>
+                        <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                        <li class="button-contact">
+                                <button type="submit">Contact Us</button>
+                        </li>
+                    </ul>
+                </form>
+                <div id="feedback"></div>
+            </section>
         </main>
-        <footer>
+        <footer id="footer">
             <div class="footer-content">
                 <img class="logo2" src="images/temple-inn-&-suites-trans-crop.png" alt="galt city logo">
                 <div id="info1">

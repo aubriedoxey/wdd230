@@ -48,3 +48,14 @@ const getWeather = async () => {
 
   };
 getWeather();
+
+const feedbackElement = document.getElementById('feedback');
+const formElement = document.forms[0];
+formElement.addEventListener('submit', function(e){
+    e.preventDefault();
+    feedbackElement.innerHTML='Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!'
+    feedbackElement.style.display="block";
+    const footerElement = document.getElementById('footer');
+    footerElement.setAttribute("class", "moveDown");
+    console.log(footerElement);
+    })

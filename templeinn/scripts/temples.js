@@ -10,7 +10,6 @@ async function getTemples(requestURL) {
         console.log(jsObject);
         const temples = jsObject['temples'];
         temples.forEach(displayTemples);
-        temples.forEach(displayTemplesTable);
     
     }
 };
@@ -69,4 +68,9 @@ function displayTemples(item) {
     //     item.remove();
     
     // })
+}
+function showCard(item) {
+    document.querySelector('.card').style.display= "grid";    
+    document.querySelector('.temples').style.display="none";    
+
 }

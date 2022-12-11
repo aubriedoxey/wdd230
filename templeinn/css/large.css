@@ -11,5 +11,35 @@
         display: flex; 
         justify-content: space-evenly;
     }
-    
+    #missionary {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    #king-room {
+        max-width: 200px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #king-info {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    #queen-room {
+        max-width: 200px;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    #queen-info {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    #adjoined-rooms {
+        max-width: 200px;
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    #adjoined-info {
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
 }

@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/large.css">
     <link rel="icon" href="images/favicon.ico">
     <script defer src="scripts/main.js"></script>
-    <script defer src="scripts/local.js"></script>
 </head>
 <body>
     <div id="content">
@@ -35,11 +34,11 @@
         <main id="home">
             <img class="hero-img" src="images/temple-hero.jpeg" alt="picture of a temple">
             <p class="hero-info">Come join us at Temple Inn & Suites. We will make your visit to the temple the best as possible!</p>
-            <button class="hero-button">Make a Reservation</button>
+            <button class="hero-button"  onclick="window.location.replace('reservation.html')">Make a Reservation</button>
             <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
-                    <img src="images/temple.jpg" alt="Avatar">
+                    <img src="images/san-diego-flip2.jpg" alt="Avatar">
                   </div>
                   <div class="weather">
                     <h2 class="weather-title">Weather</h2>
@@ -49,11 +48,16 @@
                     <hr>
                     <p class="ws">Wind Speed: <span id="ws"></span> mph</p>
                     <p class="wc">Wind Chill: <span id="wc">N/A</span></p>
+                    <p class="wc">Humidity: <span id="hum">N/A</span></p>
                   </div>
                 </div>
             </div>
               <p id="temple-info">
-                Sunny San Diego 
+                    Sunny San Diego is home to one of our amazing hotels as well as to a temple for the Church of Jesus Christ of Later Date Saints. This temple has been a cornerstone to the San Diego community since the early 90's.
+                The San Diego Temple was the 3rd temple in California. There are now 10 temples that are completed or announced in California.
+              </p>
+              <p id="temple-info2">
+                Connecting the towers at the center is a star-shaped atrium filled with a colorful garden. The atrium is accessed from the two-story Celestial Room featuring towering art glass, suspended light fixtures, and a grand staircase to an upper-level balcony.
               </p>
         </main>
         <footer>

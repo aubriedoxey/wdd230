@@ -17,9 +17,9 @@
         "phone": "(787)522-2020",
         "services":"N/A",
         "history":"The temple was announced on 7 October 2018. The groundbreaking was held on 4 May 2019. The temple will be dedicated on 15 January 2023.",
-        "ordinance schedule":"TBA",
-        "session schedule":"TBA",
-        "temple closure schedule":"TBA",
+        "ordinance":"TBA",
+        "session":"TBA",
+        "closure":"TBA",
         "imageurl": "images/puerto-rico-temple.jpg"
       },
       {
@@ -28,9 +28,9 @@
         "phone": "N/A",
         "services":"N/A",
         "history":"The temple was announced on 28 July 1847. The groundbreaking was held on 14 February 1853. The temple was dedicated on 6 April 1893. Closed for renovations.",
-        "ordinance schedule":"TBA",
-        "session schedule":"TBA",
-        "temple closure schedule":"Currently closed due to renovations.",
+        "ordinance":"TBA",
+        "session":"TBA",
+        "closure":"Currently closed due to renovations.",
         "imageurl": "images/salt-lake-temple.jpg"
       },
       {
@@ -39,9 +39,9 @@
         "phone": "(858)622-0991",
         "services":"Clothing rental available. No cafeteria available. No patron housing available. Distribution center nearby.",
         "history":"The temple was announced on 7 April 1984. The groundbreaking was held on 27 February 1988. The temple was dedicated on 25 April 1993.",
-        "ordinance schedule":"Initiatories are every half hour from 8:00 AM to 8:00 PM.",
-        "session schedule":"Endowment sessions begin every half an hour at 8:00 AM until 7:00 PM",
-        "temple closure schedule":"Saturday, 24 December 2022; Saturday, 31 December 2022; Monday, 20 March 2023 - Monday, 3 April 2023; Tuesday, 4 July 2023",
+        "ordinance":"Initiatories are every half hour from 8:00 AM to 8:00 PM.",
+        "session":"Endowment sessions begin every half an hour at 8:00 AM until 7:00 PM",
+        "closure":"Saturday, 24 December 2022; Saturday, 31 December 2022; Monday, 20 March 2023 - Monday, 3 April 2023; Tuesday, 4 July 2023",
         "imageurl": "images/san-diego-temple.jpg"
       }
     ]
