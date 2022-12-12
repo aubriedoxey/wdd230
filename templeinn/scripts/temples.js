@@ -21,6 +21,7 @@ function displayTemples(item) {
     let h2 = document.createElement('h2');
     let address = document.createElement('p');
     let phone = document.createElement('p');
+    let services = document.createElement('p');
     let history = document.createElement('p');
     let ordinance = document.createElement('p');
     let session = document.createElement('p');
@@ -28,7 +29,7 @@ function displayTemples(item) {
     let img = document.createElement('img');
 
     h2.textContent = item.name;
-
+    console.log(item.name);
     address.textContent = item.address;
 
     phone.textContent = item.phone;

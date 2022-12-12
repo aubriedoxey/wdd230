@@ -1,15 +1,77 @@
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 900px) {
     #content {
         margin-right: 25px;
         margin-left: 25px;
-        font-size: 1.25em;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        padding: 15px;
     }
     .logo {
-        max-width: 60%;
+        width: 75%;
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    .social_media1 {
+        width: 15%;
+        border-radius: 25px;
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .social_media2 {
+        width:15%;
+        grid-column: 3/4;
+        grid-row: 2/3;
     }
     nav {
-        display: flex; 
-        justify-content: space-evenly;
+        grid-row: 2/3;
+        grid-column: 2/3;
+        justify-content: space-around;
+        margin: 0;
+    }
+    .navigation {
+        display: flex;
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .navigation li a {
+        color: #346b71;
+        text-align: center;
+        /* grid-row: 2/3;
+        grid-column: 2/3; */
+    }
+    header li:hover {
+        color: #F0E4E4;
+        background-color: #D98E82;
+    }
+    .footer-content {
+        display: grid;
+        grid-template-columns: .5fr 2fr .75fr;
+        text-align: left;
+    }
+    .galt-logo2 {
+        grid-column: 1/2;
+        max-width: 250px;
+        border-radius: 15px;
+        margin: 15px;
+        margin-left: 50px;
+    }
+    #info1 {
+        grid-column: 2/3;
+        padding-top: 40px;
+    }
+    #info1 p {
+        width: 350px;
     }
     #missionary {
         display: grid;
