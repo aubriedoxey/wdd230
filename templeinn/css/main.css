@@ -26,7 +26,7 @@ nav {
 }
 .logo {
     display: block;
-    max-width: 50%;
+    width: 50%;
     margin: 0px;
     align-self: center;
     justify-self: center;
@@ -339,7 +339,7 @@ textarea {
 #adjoined-info {
     grid-row: 6/7;
     text-align: center;
-    /* max-width: 300px; */
+    max-width: 300px;
     margin: 15px auto;
 }
 #add-info {
@@ -353,7 +353,7 @@ textarea {
   }
   #form2 {
     margin: 0px;
-    width: 275px;
+    width: 250px;
     padding: 1em;
     border: 1.25px solid #346b71;
     border-radius: 1em;
@@ -375,7 +375,7 @@ textarea {
   }
   #form2 input, #form2 textarea {
     font: .75em;
-    width: 275px;
+    width: 250px;
     box-sizing: border-box;
     border: 1px solid #346b71;
     font-family: Fira Sans;
