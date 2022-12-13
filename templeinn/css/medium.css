@@ -82,7 +82,7 @@
     .hero-info {
         grid-row: 1/2;
         grid-column: 1/2;
-        color: #22464a;
+        color: #346b71;
         background-color: #f0e4e0c2;
         font-family: poppins;
         margin-left: 10px;
@@ -92,7 +92,7 @@
     
     }
     .hero-button {
-        background-color: #22464a;
+        background-color: #346b71;
         color: #F0E4E0;
         grid-row: 2/3;
         grid-column: 1/2;
@@ -219,7 +219,7 @@
     }
     #form2 {
         text-align: center;
-        color: #22464a;
+        color: #346b71;
         width: 500px;
         margin: 0px;
         width: 550px;
