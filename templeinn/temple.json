@@ -9,7 +9,7 @@
         "ordinance":"Initiatories are every half hour from 9:00 AM to 8:00 PM with a break from 1:00 PM to 5:30 PM.",
         "session":"Endowment sessions begin at 10:00 AM, 12:00 PM, 6:00 PM, 7:00 PM.",
         "closure":"Temple Closures: Saturday, 24 December 2022; Saturday, 31 December 2022; Monday, 20 March 2023 - Monday, 3 April 2023; Monday, 11 September 2023 - Monday, 25 September 2023",
-        "imageurl": "images/boston-temple.jpg"
+        "imageurl": "images/boston-temple1.jpg"
       },
       {
         "name": "San Juan, PR Temple",
@@ -20,7 +20,7 @@
         "ordinance":"The Initiatory schedule will be released once the temple is dedicated.",
         "session":"The Endowment schedule will be released once the temple is dedicated.",
         "closure":"Temple Closures: Monday, 20 March 2023 - Monday, 3 April 2023; Monday",
-        "imageurl": "images/puerto-rico-temple.jpg"
+        "imageurl": "images/puerto-rico-temple1.jpg"
       },
       {
         "name": "Salt Lake City, UT Temple",
@@ -31,7 +31,7 @@
         "ordinance":"The Initiatory schedule will be released once the temple is reopened.",
         "session":"The Endowment schedule will be released once the temple is reopened.",
         "closure":"Currently closed due to renovations.",
-        "imageurl": "images/salt-lake-temple.jpg"
+        "imageurl": "images/salt-lake-temple1.jpg"
       },
       {
         "name": "San Diego, CA Temple",
@@ -42,7 +42,7 @@
         "ordinance":"Initiatories are every half hour from 8:00 AM to 8:00 PM.",
         "session":"Endowment sessions begin every half an hour at 8:00 AM until 7:00 PM",
         "closure":"Temple Closures: Saturday, 24 December 2022; Saturday, 31 December 2022; Monday, 20 March 2023 - Monday, 3 April 2023; Tuesday, 4 July 2023",
-        "imageurl": "images/san-diego-temple.jpg"
+        "imageurl": "images/san-diego-temple1.jpg"
       }
     ]
 }
